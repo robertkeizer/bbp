@@ -1,0 +1,17 @@
+{
+	"name": "bbp",
+	"version": "0.0.1",
+	"author": "Robert Keizer <robert@keizer.ca>",
+	"description": "Bailey Borwei Plouffe",
+	"keywords": [ "bbp", "math" ],
+	"licences": [ { "type": "MIT" } ],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/robertkeizer/bbp"
+	},
+	"dependencies": {
+		"node-gyp": "0.13.1"
+	},
+	"scripts": { "install": "node_modules/node-gyp/bin/node-gyp.js configure && node_modules/node-gyp/bin/node-gyp.js build" },
+	"main": "./lib/index.js"
+}
