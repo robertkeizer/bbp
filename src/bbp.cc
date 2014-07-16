@@ -4,7 +4,7 @@
 using namespace v8;
 using namespace node;
 
-static Handle<Value> bbp ( cost Arguments& args ){
+static Handle<Value> bbp ( const Arguments& args ){
 	HandleScope scope;
 
 	//TODO
