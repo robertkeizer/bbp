@@ -10,7 +10,6 @@
 		"url": "https://github.com/robertkeizer/bbp"
 	},
 	"dependencies": {
-		"bigint": "0.4.2"
 	},
 	"main": "bbp.js"
 }
