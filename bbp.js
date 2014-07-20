@@ -1,4 +1,4 @@
-var bignum = require( "bignum" );
+var bignum = require( "bigint" );
 
 exports.bbp = function( s, b, m, a ){
 
@@ -10,6 +10,9 @@ exports.bbp = function( s, b, m, a ){
 			console.log( v + ": " + eval(v) );
 		} );
 
+		var z = bignum( "1" ).div( bignum( "16" ).pow( k ) );
+
+		console.log( "Got here :" + z.toString() );
 
 		return 1;
 	}
